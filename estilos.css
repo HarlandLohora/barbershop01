@@ -1,0 +1,79 @@
+:root {
+  --colorPrimary: #ff6c00;
+  --fontColor: #fff;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: var(--fontColor);
+}
+
+a:hover {
+  color: var(--colorPrimary);
+}
+
+.barraLateralIzquierda {
+  background-color: var(--fontColor);
+  text-align: left;
+  width: 15%;
+  height: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.barraLateralDerecha {
+  background-color: blue;
+  width: 85%;
+  height: 100%;
+  display: inline-block;
+  color: var(--fontColor);
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background: transparent;
+  color: var(--fontColor);
+  outline: none;
+  border: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--colorPrimary);
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.hero {
+  height: 50px;
+}
+
+.info {
+  background-color: rebeccapurple;
+  font-size: 12px;
+  padding: 15px;
+  width: 100%;
+}
+
+nav {
+  display: inline-block;
+  width: 80%;
+}
+
+.datosContacto {
+  display: inline-block;
+  text-align: right;
+}
