@@ -1,19 +1,12 @@
 :root {
   --colorPrimary: #ff6c00;
   --fontColor: #fff;
+  --lineColor: #9DA4BD;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: black;
-  height: 80vh;
-  width: 100vw;
-  display: flex;
+  
 }
 
 a {
@@ -25,24 +18,34 @@ a:hover {
   color: var(--colorPrimary);
 }
 
+.header {
+  background-image: url("img/Slider\ img\ 3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
 .barraLateralIzquierda {
-  background-color: var(--fontColor);
-  text-align: left;
+  background-color: var(--colorPrimary);
+  color: #000;
   width: 15%;
   height: 100%;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
+}
+
+.datos{
+  height: 100%;
+  /* background-color: rgb(36, 131, 97); */
 }
 
 .barraLateralDerecha {
-  background-color: blue;
+  /* background-color: blue; */
   width: 85%;
   height: 100%;
-  display: inline-block;
   color: var(--fontColor);
-  margin: 0;
-  padding: 0;
+
 }
 
 button {
@@ -62,18 +65,62 @@ button {
 }
 
 .info {
-  background-color: rebeccapurple;
+  /* background-color: rebeccapurple; */
   font-size: 12px;
   padding: 15px;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 nav {
-  display: inline-block;
-  width: 80%;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 .datosContacto {
-  display: inline-block;
+  width: 40%;
   text-align: right;
+}
+
+
+.linea{
+  width: 60px;
+  height: 1px;
+  background-color: var(--lineColor);
+  margin-right: 15px;
+}
+
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  height: 85%;
+}
+
+.subtitle{
+  display: flex;
+  align-items: center;
+}
+
+.nosotrosSection{
+  display: flex;
+  padding: 50px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nosotrosSection > img {
+  width: 20%;
+}
+
+.nosotrosSection > div{
+  background-color: #0048ff;
+  width: 50%;
+
 }
