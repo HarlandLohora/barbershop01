@@ -4,37 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Barbershop</title>
-    <link href="/img/favicon.png" rel="icon" />
-
     <link
       rel="stylesheet"
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     />
-
     <!-- Estos links son referentes a la fuente de texto -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:ital@1&display=swap" rel="stylesheet">
     <!-- ------------- -->
-
-    <link rel="stylesheet" href="/estilos.css" />
+    
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="judith.css">
+    <link rel="stylesheet" href="thomas.css">
+    <link rel="stylesheet" href="isabel.css">
+    <link rel="stylesheet" href="josue.css">
+    <title>Nosotros</title>
   </head>
   <body>
-    <div class="header">
-      <div class="barraLateralIzquierda">
-        <div class="datos">
-          <span>Instagram</span>
-          <span>Youtube</span>
-        </div>
+    <div class="hero">
+      <div class="barraizquierda">
+        <p>LOGO</p>
       </div>
-      <div class="barraLateralDerecha">
+      <div class="barraderecha">
         <div class="info">
+          <!-- Judith -->
           <nav>
-            <a href="/nosotros.html">Nosotros</a>
+            <a href="nosotros.html">Nosotros</a>
             <a href="">Servicios y precios</a>
             <a href="">Maestros</a>
             <a href="">Contacto</a>
@@ -58,7 +54,6 @@
         </div>
       </div>
     </div>
-    <!-- Contenido principal -->
     <main>
       <section class="nosotrosSection">
         <img src="img/img 1.png" />
@@ -73,7 +68,7 @@
             Si desea agregar más confianza a tu imagen, definitivamente estás en
             el lugar correcto.
           </p>
-          <p>
+          <p >
             Somos un equipo de profesionales que anhela el cambio. Y cuando
             caigas en manos, nunca volverás a ser el mismo. Somos un equipo que
             siempre está en la misma sintonía con las tendencias. ¡Por lo tanto,
@@ -82,20 +77,92 @@
           <button>AGENDA TU CITA</button>
         </div>
       </section>
-      <section>
-        <span>Conoce nuestros precios</span>
-        <h3>Servicios y precios</h3>
-        <table>
-          <tr>
-            <td>Corte de pelo</td>
-            <td>desde $300mx.</td>
-            <td>Corte de pelo(aprendiz)</td>
-            <td>desde $50mx.</td>
-          </tr>
+      <!--Thomas-->
+      <section class="preciossection">
+        <div>
+        <img src="/img/servicios.png"/> 
+        </div> 
+        <div>
+         <div class="linea"></div>
+         <span class="subtitulo">Conoce nuestros precios</span>
+        </div>
+        <h3 class="titulosection">Servicios y precios</h3>
+        <div class="Tabla">
+          <div>
+            <span class="tinfo">Corte de pelo</td>
+            <div class="linea1"></div>
+            <span class="tinfo">desde $300mx.</td>
+
+
+            <td class="tinfo">Corte de pelo(aprendiz)</td>
+            <div class="linea1"></div>
+            <td class="tinfo">desde $50mx.</td>
+            <td class="tinfo">Corte de Barba</td>
+            <div class="linea1"></div>
+            <td class="tinfo">desde $200mx.</td>
+            <td class="tinfo">Corte Despunte</td>
+            <div class="linea1"></div>
+            <td class="tinfo">desde $200mx.</td>
+            <td class="tinfo>">Corte de Bigote</td>
+            <div class="linea1"></div>
+            <td class="tinfo">desde $200mx.</td>
+            <td class="tinfo">Corte Infantil</td>
+            <div class="linea1"></div>
+            <td class="tinfo">desde $300mx</td>
+            <td class="tinfo">Afeitado con Navaja</td>
+            <div class="linea1"></div>
+            <td class="tinfo">desde $200mx.</td>
+            <td class="tinfo">Tinte de Canas</td>
+            <div class="linea1"></div></tr>
+            <td class="tinfo">desde $200mx.</td>
         </table>
+        <button>AGENDA TU CITA</button>
       </section>
+      <!--Josue-->
+      <section class="whywe">
+        <div class="features">
+          <div class="feat1">
+            <h3>600</h3>
+            <p>Clientes satisfechos cada dia</p>
+          </div>
+          <div class="feat2">
+            <h3>50</h3>
+            <p>Premios a la excelencia de nuestro servicio</p>
+          </div>
+          <div class="feat3">
+            <h3>20</h3>
+            <p>Los mejores estilistas de México</p>
+          </div>
+          <div class="feat4">
+            <h3>100</h3>
+            <p>Premios para nuestros clientes fieles</p>
+          </div>
+        </div>
+        <div class="best">
+          <div class="linea"></div>
+          <span>SOMOS LOS MEJORES</span>  
+          <h3>¿Por qué nosotros?</h3>
+          <p>Somos referencia a nivel nacional e internacional por nuestra dedicación, nuestro empeño y profesionalismo. </p>
+        </div>  
+      </section>
+
+      <!--Isabel-->
+      <section class="maestrosSection">
+        <div class="linea1"> <p> PROFESIONALES DE ALTO DESEMPEÑO <br>
+        Nuestros Maestros</p>
+        <div>
+          <img src="img/maestro1.png" alt="maestro 1" >
+          <p> John Smith <br> Extreme Barber </p>
+          <img src="img/maestro2.png" alt="maestro 2" >
+          <p></p> Michele Doe <br> Extreme Barber </p>
+          <img src="img/maestro3.png" alt="maestro 3" >
+          <p></p> Alan Black <br> Extreme Barber </p>
+        </div>
+      </section>
+
+      <section></section>
     </main>
 
-    <footer></footer>
+    
   </body>
 </html>
