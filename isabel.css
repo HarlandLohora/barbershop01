@@ -1,0 +1,15 @@
+.maestrosSection {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nonwrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+.linea1 {
+    display: flex;
+    flex-flow: column;
+
+
+}

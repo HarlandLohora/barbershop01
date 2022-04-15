@@ -1,0 +1,55 @@
+.whywe{
+    width: 100%;
+    /* height: 582px; */
+    background-color: #fff;
+    display: flex;
+    color: #303030;
+}
+.features div{
+    width: 170px;
+    height: 133px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.features p{
+    margin: 0px;
+}
+.best{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+h3{
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0px;
+}
+.features p, .best span{
+    font-weight: 600px;
+}
+.best p{
+    font-weight: 400px;
+    color: #555;
+}
+.features h3,.features p,.best span{
+    line-height: 1.36;
+}
+.best h3{
+    line-height: 1.17;
+}
+.features p, .best span{
+    font-size: 11px;
+}
+.best p{
+    font-size: 18px;
+    line-height: 1.66;
+}
+.best div{
+    border
+}
+.feat1,.feat3{
+    margin-left: 155px;
+}
+.feat2,.feat4{
+    margin-left: 30px;
+}
