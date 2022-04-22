@@ -134,3 +134,179 @@ h1{
 main{
   width: 100%;
 }
+
+/* Isabel */
+
+.maestrosSection {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nonwrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-evenly;
+}
+
+.linea1 {
+  display: flex;
+  flex-flow: column;
+
+
+}
+
+
+/* Josue */
+
+.whywe{
+  width: 100%;
+  /* height: 582px; */
+  background-color: #fff;
+  display: flex;
+  color: #303030;
+}
+.features div{
+  width: 170px;
+  height: 133px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.features p{
+  margin: 0px;
+}
+.best{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+h3{
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0px;
+}
+.features p, .best span{
+  font-weight: 600px;
+}
+.best p{
+  font-weight: 400px;
+  color: #555;
+}
+.features h3,.features p,.best span{
+  line-height: 1.36;
+}
+.best h3{
+  line-height: 1.17;
+}
+.features p, .best span{
+  font-size: 11px;
+}
+.best p{
+  font-size: 18px;
+  line-height: 1.66;
+}
+/* .best div{
+  border
+} */
+.feat1,.feat3{
+  margin-left: 155px;
+}
+.feat2,.feat4{
+  margin-left: 30px;
+}
+
+
+/* Judith */
+
+nav a{
+  margin-right: 50px;
+}
+.datoscontacto a{
+  margin-right: 50px;
+}
+button{
+  cursor: pointer; 
+}
+
+
+/* Thomas */
+
+
+.subtitulo{
+  font-weight:600;
+  font-size: 11px;
+  color: var(--lineColor);
+  text-transform: uppercase;
+}
+.titulosection{
+   font-family: 'Raleway', sans-serif;
+   font-weight:700;
+   font-size:42px;
+   color: var(--fontColor);
+}
+.tablainfo{
+   font-weight: 400;
+   font-size: 18PX;
+   color: var(--lineColor);
+}
+
+.tablas{
+  display: flex;
+}
+
+.tablas div{
+  display: flex;
+  align-items: flex-end;
+}
+
+section div{
+  justify-content: space-between;
+}
+
+.linea1{
+   width: 235px;
+   height: 1px;
+   background-color: var(--lineColor);
+   margin-right: 15px;
+   color:var(--lineColor);
+
+}
+.preciossection{
+   display:flex;
+   flex-direction:column;
+   background: url("/img/s.png"), #111319;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 718px;
+   padding: 130px 55px;
+}
+
+.preciossection>div:nth-child(1){
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.preciossection button{
+  width: 160px;
+  height: 40px;
+  /* margin: 0 auto; */
+}
+
+.preciossection>div:nth-last-child(1){
+  align-self: center;
+}
+
+
+.tinfo{
+  font-weight: 400;
+  color: var(--lineColor);    
+}
+button {
+   background: transparent;
+   color: var(--fontColor);
+   outline: none;
+   border: none;
+   border-style: solid;
+   border-width: 1px;
+   border-color: var(--colorPrimary);
+   border-radius: 25px;
+   padding: 10px 15px;
+}
