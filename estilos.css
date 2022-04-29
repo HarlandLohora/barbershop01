@@ -2,6 +2,7 @@
   --colorPrimary: #ff6c00;
   --fontColor: #fff;
   --lineColor: #9DA4BD;
+  --grisClarito: #f7f7f7;
 }
 
 
@@ -135,22 +136,31 @@ main{
   width: 100%;
 }
 
+
 /* Isabel */
 
 .maestrosSection {
   display: flex;
+  height: 890px;
+  background-color: var(--grisClarito);
   flex-direction: column;
-  flex-wrap: nonwrap;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.rowLine{
+  display: flex;
   align-items: center;
-  align-content: space-evenly;
+  justify-content: flex-start;
+
 }
 
 .linea1 {
   display: flex;
   flex-flow: column;
+}
 
-
+.maestroImgs{
+  display: flex;
 }
 
 
@@ -158,35 +168,87 @@ main{
 
 .whywe{
   width: 100%;
-  /* height: 582px; */
-  background-color: #fff;
+  height: 582px;
   display: flex;
   color: #303030;
 }
+
+.whywe>div{
+  width: 50%;
+}
+
+.features{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.columnFeature{
+  height: 100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.columnFeature div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .features div{
   width: 170px;
   height: 133px;
-  background-color: #f7f7f7;
   text-align: center;
 }
+
+.feat1,.feat2,.feat3,.feat4{
+  background-color: var(--grisClarito);
+}
+
+.feat1{
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.feat2{
+  margin-right: 30px;
+}
+
+.feat3,.feat4{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+
+
 .features p{
   margin: 0px;
 }
 .best{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
 }
+.best>div{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 h3{
   font-size: 42px;
   font-weight: 700;
   margin: 0px;
 }
 .features p, .best span{
-  font-weight: 600px;
+  font-weight: 600;
 }
 .best p{
-  font-weight: 400px;
+  font-weight: 400;
   color: #555;
 }
 .features h3,.features p,.best span{
@@ -205,12 +267,12 @@ h3{
 /* .best div{
   border
 } */
-.feat1,.feat3{
+/* .feat1,.feat3{
   margin-left: 155px;
 }
 .feat2,.feat4{
   margin-left: 30px;
-}
+} */
 
 
 /* Judith */
@@ -247,8 +309,11 @@ button{
    color: var(--lineColor);
 }
 
+/* 1170 px */
+
 .tablas{
   display: flex;
+  padding-top: 44px;
 }
 
 .tablas div{
@@ -266,7 +331,6 @@ section div{
    background-color: var(--lineColor);
    margin-right: 15px;
    color:var(--lineColor);
-
 }
 .preciossection{
    display:flex;
@@ -288,17 +352,47 @@ section div{
   width: 160px;
   height: 40px;
   /* margin: 0 auto; */
+  margin-top: 44px;
 }
 
 .preciossection>div:nth-last-child(1){
   align-self: center;
 }
 
+.tablaCortes{
+  margin-bottom: 10px;
+}
+
+
+.sectionTable{
+  background: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
+  width: 50%;
+  padding: 30px 40px;
+}
 
 .tinfo{
   font-weight: 400;
-  color: var(--lineColor);    
+  color: var(--lineColor);
+  width: 150px;    
 }
+
+/* 
+.tinfo>span{
+  width: 170px;
+} */
+
+.tinfoDerecha{
+  width: 300px;
+}
+
+
+.tablaReal{
+  background: linear-gradient(180deg, #090B13 0%, rgba(9, 11, 19, 0.2) 100%);
+  width: 50%;
+  padding: 30px 40px;
+}
+
+
 button {
    background: transparent;
    color: var(--fontColor);
