@@ -5,6 +5,9 @@
   --grisClarito: #f7f7f7;
   --darkColor: #000;
   --grisObscuro: #303030;
+  --bgDarkz: #191C26;
+  --inputColor: rgba(157, 164, 189, 0.4);
+  --inputColor2: rgba(157, 164, 189, 0.1);
 }
 
 
@@ -437,3 +440,97 @@ section div{
 }
 
 
+.momentos{
+  height: 679px;
+  background-color: var(--fontColor);
+  padding: 130px 55px;
+}
+
+
+.momentos__fotos{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44px;
+}
+
+
+.contacto{
+  display: flex;
+  height: 644px;
+}
+
+
+.contacto__agenda{
+  background-color: var(--bgDarkz);
+  padding: 130px 40px 193px 55px;
+  width: 50%;
+}
+
+.contacto__texto{
+  color: var(--fontColor);
+}
+
+.contacto__entradas{
+  display: flex;
+  margin: 44px 0px;
+}
+
+.contacto__entrada{
+  color: var(--inputColor);
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--inputColor);
+  padding: 15px 0px;
+  width: 48%;
+}
+
+.contacto__entrada:focus{
+  color: var(--fontColor);
+  border-bottom: 1px solid var(--fontColor);
+}
+
+.contacto__mensaje{
+  outline: none;
+  background-color: transparent;
+  border: none;
+  color: var(--inputColor);
+  border-bottom: 1px solid var(--inputColor);
+  width: 100%;
+  height: 76px;
+}
+
+.contacto__mensaje:focus{
+  color: var(--fontColor);
+  border-bottom: 1px solid var(--fontColor);
+}
+
+.contacto__btn{
+  width: 160px;
+  height: 44px;
+  margin-top: 44px;
+}
+
+.contacto__contacto{
+  width: 50%;
+  background: url("/img/Bg.png"),#191C26;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 130px 105px 130px 100px;
+  color: var(--inputColor);
+}
+
+.contacto__link{
+  color: var(--inputColor);
+}
+
+
+.contacto__info{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.contacto__info__icono{
+  padding-right: 15px;
+}

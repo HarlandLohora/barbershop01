@@ -13,7 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:ital@1&display=swap" rel="stylesheet">
     <!-- ------------- -->
-    
+    <script src="https://kit.fontawesome.com/3c505a348d.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="estilos.css">
     <title>Nosotros</title>
   </head>
@@ -26,10 +27,10 @@
         <div class="info">
           <!-- Judith -->
           <nav>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="">Servicios y precios</a>
-            <a href="">Maestros</a>
-            <a href="">Contacto</a>
+            <a href="/nosotros.html">Nosotros</a>
+            <a href="#servicios">Servicios y precios</a>
+            <a href="#maestros">Maestros</a>
+            <a href="#contacto">Contacto</a>
           </nav>
           <div class="datosContacto">
             <a href="">+52 55 12 34 56</a>
@@ -74,7 +75,7 @@
         </div>
       </section>
       <!--Thomas-->
-      <section class="preciossection">
+      <section class="preciossection" id="servicios">
           <div>
             <div class="linea"></div>
             <span class="subtitulo">Conoce  nuestro catalogo que ofrecemos</span>
@@ -190,7 +191,7 @@
       </section>
 
       <!--Isabel-->
-      <section class="maestrosSection">
+      <section class="maestrosSection" id="maestros">
           <div class="rowLine">
             <div class="linea"></div>
             <p> PROFESIONALES DE ALTO DESEMPEÑO</p>
@@ -221,7 +222,57 @@
         </div>
       </section>
 
-      <section></section>
+      <section class="momentos" >
+        <div class="rowLine">
+          <div class="linea"></div>
+          <p>MOMENTOS CAPTURADOS EN NUESTRA BARBERSHOP</p>
+        </div>
+        <div class="momentos__fotos">
+          <img src="img/Fluf01.png" alt="Fluf01">
+          <img src="img/Fluf02.png" alt="Fluf02">
+          <img src="img/Fluf03.png" alt="Fluf03">
+          <img src="img/Fluf04.png" alt="Fluf04">
+        </div>
+      </section>
+      <section class="contacto" id="contacto">
+        <div class="contacto__agenda">
+          <h3 class="contacto__texto">Agenda tu cita</h3>
+          <div class="contacto__entradas">
+            <input class="contacto__entrada" placeholder="NOMBRE*"/>
+            <input  class="contacto__entrada" placeholder="TELEFONO*"/>
+          </div>
+          <!--<span class="contacto__texto">Mensaje</span>-->
+          <textarea class="contacto__mensaje" placeholder="MENSAJE"></textarea>
+          <button class="bttn contacto__btn">ENVIAR</button>
+        </div>
+        <div class="contacto__contacto">
+          <h3 class="contacto__texto"><a href="/contacto.html">Contacto</a> </h3>
+          <div class="contacto__info">
+            <i class="fas fa-map-marker-alt contacto__info__icono"></i>
+            <address>
+              Glorieta de los <br/> Insurgentes, CDMX. 
+            </address>
+          </div>
+          <div class="contacto__info">
+            <i class="fas fa-phone-alt contacto__info__icono"></i> 
+            <a href="tel:+5255123456" class="contacto__link">
+              +52 55 12 34 56
+            </a>
+          </div>
+          <div class="contacto__info">
+            <i class="fas fa-envelope contacto__info__icono"></i>
+            <a href="mailto:barbershop@email.com" class="contacto__link">
+              barbershop@email.com
+            </a>
+          </div>
+          <div class="rowLine">
+            <div class="linea"></div>
+            <p class="contacto__texto">HORARIOS</p>
+          </div>
+          
+          <p>Todos los dias de 9:00 a 22:00</p>
+        </div>
+      </section>
     </main>
 
     
